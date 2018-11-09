@@ -1,0 +1,67 @@
+/* #Question{
+    width:900px;
+    height:75px
+}
+
+#set{
+    margin-left:500px;
+    background-color:aqua
+}
+*/
+#Qno{
+    border-radius:23px;
+    width:200px;
+    margin-left:250px
+} 
+#question{
+    border-radius:23px;
+    margin-left:150px;
+    width:500px
+}
+#id1{
+
+    margin-left:140px;
+    border-radius:13px;
+    width:250px
+
+}
+#id2{
+
+    margin-left:140px;
+    border-radius:13px;
+    width:250px
+
+}
+
+#id3{
+
+    margin-left:140px;
+    border-radius:13px;
+    width:250px
+
+}
+#id4{
+
+    margin-left:140px;
+    border-radius:13px;
+    width:250px
+
+}
+.card{
+    width:850px;
+    height:900px;
+    margin-left:280px;
+    margin-top:30px;
+    border-radius:25px;
+    background-color:whitesmoke
+}
+#btn {
+    margin-left:300px;
+    margin-top:20px
+}
+
+#keyanswer{
+    margin-left:140px;
+    border-radius:13px;
+    width:250px
+}

@@ -1,0 +1,61 @@
+<div id="signupid" class="container">
+  <div class="card">
+    <div class="card-body">
+
+  <div class="row">
+  <div id="signup" class="col-sm-4 ">
+    
+    <div class="form-group">
+      <label for="name"><font color="blue"></font></label>
+      <input type="text" class="form-control" id="Qno" placeholder="Ouestion_No" name="Qno" required #Qno><br>
+    
+    <div class="form-group">
+      <label for="name"><font color="blue"></font></label>
+      <input type="text" class="form-control" id="question" placeholder="Ouestion" name="question"   required #question><br>
+      </div>
+      
+     
+
+<div class="form-group">
+<label for="name"><font color="blue"></font></label>
+<input type="text" class="form-control" id="id1" placeholder="option 1" name="option1" required #option1><br>
+</div>
+
+<div class="form-group">
+<label for="name"><font color="blue"></font></label>
+<input type="text" class="form-control" id="id2" placeholder="option 2" name="option2" required #option2><br>
+</div>
+<div class="form-group">
+<label for="option"><font color="green"><font color="red"></font></font></label>
+<input type="text" class="form-control" id="id3" placeholder="option 3" name="option3" required #option3><br>
+</div>
+<div class="form-group">
+<label for="option"><font color="orange"><font color="red"></font></font></label>
+<input type="text" class="form-control" id="id4" placeholder="option 4" name="option4" required #option4><br>
+</div>
+<div class="form-group">
+  <label for="pwd"><font color="orange"><font color="red"></font></font></label>
+  <input type="text" class="form-control" id="keyanswer" placeholder="key" name="keyanswer" required #keyanswer><br>
+  </div>
+<div class="col-sm-2">
+
+
+</div>
+
+
+<div class="row">
+<div class="col-sm-2">
+<button type="submit" id="btn" class="btn btn-success" (click)="createquestion(Qno.value,question.value,option1.value,option2.value,option3.value,option4.value,keyanswer.value);store(keyanswer.value)">Set</button></div>
+<div class="col-sm-2"></div>
+<div class="col-sm-2">
+  <button type="submit" id="btn" class="btn btn-danger" routerLink="">Cancel</button>
+  </div>
+  
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+

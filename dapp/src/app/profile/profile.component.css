@@ -1,0 +1,19 @@
+#profileid{
+
+    width:500px;
+    height:230px
+}
+#containerid{
+    margin-left:500px;
+    height:896px;
+    width:1000px
+}
+#admin{
+    margin-left:310px;
+    border-radius:25px;
+    background-color: aqua
+
+}
+html,body{
+    background-color:lightsalmon;
+}

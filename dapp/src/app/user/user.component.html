@@ -1,0 +1,89 @@
+<!Doctype html>
+<html>
+
+<body>
+     
+        <div id="custid" class="container">
+            <!-- <button id="h2"><font color="black">User</font></button><br><br> -->
+            
+<div class="row">
+
+            <div id="custsignup" class="col-md-4 ">
+                <br><br>    
+  <h1><font color="black">Sign up</font></h1><br>
+ 
+  <div class="card">
+      <div class="card-body">
+         
+    <div  class="form-group">
+      <label for="name"><font color="blue"></font></label>
+      <input type="text" class="form-control" #a id="name"  placeholder="Enter username" name="name" required #name><br>
+    </div>
+
+    <div class="form-group">
+        <label for="name"><font color="blue"></font></label>
+        <input type="text" class="form-control" #b id="empid" placeholder="Enter proper id" name="empid" required #empid><br>
+      </div>
+    <div class="form-group">
+      <label for="email"><font color="green"><font color="red"></font></font></label>
+      <input type="email" class="form-control" #c id="mail" placeholder="Enter valid Mail id" name="mail" required #mail><br>
+    </div>
+    <div class="form-group">
+      <label for="pwd"><font color="orange"><font color="red"></font></font></label>
+      <input type="password" class="form-control" #d id="pwd" placeholder="Enter password" name="pwd" required #pwd><br>
+    </div>
+   
+ 
+    <div  id="check" class="checkbox">
+      <label><input type="checkbox" name="remember"> Remember me</label>
+    </div>
+    <br><br>
+    <div id="click" class="row">
+        <div class="col-sm-2">
+        <button type="submit" class="btn btn-info" (click)="click();clickk(a.value,b.value,c.value,d.value)">Signup</button></div>
+        <div class="col-sm-4"></div>&nbsp;&nbsp;
+        <div class="col-sm-2">
+            <button type="submit" class="btn btn-success" (click)="click();">login--></button>
+            </div>
+      </div>
+</div>
+</div>
+    </div>
+<div class="col-md-2"></div>
+<div id="login" style="display:none" class="col-md-4 ">
+
+        <h1><font color="black">Login</font></h1><br>
+        <div class="card">
+            <div class="card-body">
+          <div  class="form-group">
+            <label for="name"><font color="blue"></font></label>
+            <input type="text" class="form-control" #e id="name" placeholder="Enter username" name="name" required #name><br>
+          </div>
+      
+          <div class="form-group">
+              <label for="name"><font color="blue"></font></label>
+              <input type="text" class="form-control" #f id="empid" placeholder="Enter proper id" name="empid" required #empid><br>
+            </div>
+   
+          <div class="form-group">
+            <label for="pwd"><font color="orange"><font color="red">*</font></font></label>
+            <input type="password" class="form-control" #g id="pwd" placeholder="Enter password" name="pwd" required #pwd><br>
+          </div>
+        <br>
+          <div id="btn" class="row">
+              <div class="col-sm-2">
+              <button type="submit" class="btn btn-success"  routerLink="/test" (click)="userlogin(name.value,empid.value,pwd.value)">Login</button></div>
+              <div class="col-sm-2"></div>
+              <div class="col-sm-2">
+                  <button type="submit" class="btn btn-danger" routerLink="/">Cancel</button>
+                  </div>
+            </div>
+      </div>
+
+</div>
+</div>
+</div>
+</div>
+ 
+</body>
+</html>

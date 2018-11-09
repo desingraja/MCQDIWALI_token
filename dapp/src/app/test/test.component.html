@@ -1,0 +1,56 @@
+
+                    <div class="card">
+                      <div class="card-body">
+                    <div id="signupid" class="container">
+
+                      <div class="row">
+                      <div id="signup" class="col-sm-4 ">
+                        <br>
+                        <br>
+
+
+
+                            
+                        <div>
+                            <input type="text"  class="form-control" id="Question" placeholder="Ouestion" name="Ouestion" value={{question}} readonly #Question><br>
+                            </div>
+  <br>
+                            <div id="id1" class="radio">
+                                <input type="radio" name="rdbtn" id="option" value={{option1}}>&nbsp;&nbsp;&nbsp;&nbsp;{{option1}}
+                              </div>
+                              <br>
+                              <div id="id2"class="radio">
+                                  <input type="radio"  name="rdbtn"  id="option"  value={{option2}}>&nbsp;&nbsp;&nbsp;&nbsp; {{option2}}
+                                </div>
+                                <br>
+                                <div id="id3" class="radio">
+                                    <input type="radio"  name="rdbtn"  id="option"  value={{option3}}>&nbsp;&nbsp;&nbsp;&nbsp;{{option3}}
+                                  </div>
+  <br>
+  
+                                  <div id="id4" class="radio">
+                                      <input type="radio"   name="rdbtn"  id="option"  value={{option4}}>&nbsp;&nbsp;&nbsp;&nbsp;{{option4}}
+                                    </div>
+
+
+
+                    <div class="row">
+                    <div class="col-sm-2">
+                    <button type="submit" class="btn btn-success" id="btnid"   (click)="submit()">Next</button>
+                  </div>
+                    <div class="col-sm-2"></div>
+                    <div class="col-sm-2">
+                      <button type="submit" id="btn" class="btn btn-danger" (click)="submit1()">Previous</button>
+                      </div>
+                      <div class="col-sm-2"></div>
+
+                      <div class="col-sm-2">
+                          <button type="submit" class="btn btn-warning" id="btnid1"  (click)="finish()" routerLink="/admin">Finish_Test</button>
+                        </div>
+                    </div>
+                    </div>
+                    </div> 
+                    </div>
+                    </div>
+                    </div>
+                    <router-outlet></router-outlet>

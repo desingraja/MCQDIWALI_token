@@ -1,0 +1,124 @@
+#Question{
+    width:800px;
+    height:65px;
+    margin-top:100px
+}
+
+#set{
+    margin-left:500px;
+    width:70px;
+    height:30px;
+}
+
+#id1{
+
+    margin-left:140px;
+    border-radius:17px;
+    width:200px;
+
+
+}
+#id2{
+
+    margin-left:140px;
+    border-radius:17px;
+    width:200px;
+
+}
+
+#id3{
+
+    margin-left:140px;
+    border-radius:17px;
+    width:200px;
+
+}
+#id4{
+
+    margin-left:140px;
+    border-radius:17px;
+    width:200px;
+
+}
+#Qno{
+    border-radius:23px;
+    margin-left:320px
+} 
+#Question{
+    border-radius:23px;
+    margin-left:0px;
+    width:800px
+}
+
+
+.card{
+    width:850px;
+    height:900px;
+    margin-left:430px;
+    margin-top:30px;
+    border-radius:25px;
+    background-color:whitesmoke
+}
+#btnid {
+    margin-left:200px;
+    margin-top:120px
+}
+#btnid1 {
+    margin-left:300px;
+    margin-top:120px
+}
+#btn{
+    margin-left:240px;
+    margin-top:120px;
+
+
+
+}
+#rdobtn1{
+    margin-top:10px;
+    margin-left:55px;
+    background-color:white
+
+
+}
+#rdobtn2{
+    margin-top:10px;
+    margin-left:55px;
+    background-color:white
+
+
+}
+#rdobtn3{
+    margin-top:10px;
+    margin-left:55px;
+    background-color:white
+
+
+}
+#rdobtn4{
+    margin-top:10px;
+    margin-left:55px;
+    background-color:white
+
+
+}
+
+#Question{
+    background-color:white
+}
+#id1{
+    background-color:white
+
+}
+#id2{
+    background-color:white
+
+}
+#id3{
+    background-color:white
+
+}
+#id4{
+    background-color:white
+
+}

@@ -1,0 +1,128 @@
+<!Doctype html>
+<html>
+
+<body>
+  <!-- name:String , 
+  empid:Number,
+   mail:String,
+    pwd:Number
+    ----
+    uname:String , 
+         unamelast:String,
+          mail:String,
+           psw:Number -->
+     
+        <div id="signupid" class="container">
+          <br>
+          
+
+            <div class="row">
+         
+            <div id="signup" class="col-sm-4 ">
+              <h1><font color="black">Sign up</font></h1>
+              <div class="card">
+                  <div class="card-body">
+    <div class="form-group">
+      <label for="name"></label>
+      <input type="text" class="form-control" #a id="name" placeholder="Enter Firstname" name="uname" required #uname><br>
+    </div>
+
+    <div class="form-group">
+      <label for="name"></label>
+      <input type="text" class="form-control" #b id="name" placeholder="Enter lastname" name="unamelast" required #unamelast><br>
+    </div>
+    <div class="form-group">
+      <label for="email"></label>
+      <input type="email" class="form-control" #c id="mail" placeholder="Enter valid Mail id" name="mail" required #mail><br>
+    </div>
+    <div class="form-group">
+      <label for="pwd"></label>
+      <input type="password" class="form-control" #d id="pwd" placeholder="Enter password" name="psw" required #psw><br>
+    </div>
+   <div id="groupid" class="form-group">
+    <label>Gender &nbsp;&nbsp;</label>
+    Male <input type="radio" name="rdo" > FeMale <input type="radio" name="rdo">
+
+   </div>
+ 
+    <div class="checkbox">
+      <label><input type="checkbox" id="remid" name="remember"> Remember me</label>
+    </div>
+    <p id="pid"><font color="blue">New User Signup First</font></p>
+<br>
+    <div id="btnid" class="row">
+        <div class="col-sm-2">
+        <button type="submit" class="btn btn-warning" (click)="pri();submit(a.value,b.value,c.value,d.value)">Signup</button></div>
+        <div class="col-sm-4"></div>
+        <div class="col-sm-2">
+            <button type="submit" class="btn btn-success" (click)="pri()" >Login--></button>
+            </div>
+      </div>
+</div>
+</div>
+</div>
+<div class="col-sm-2"></div>
+
+  
+
+<div id="loginid" style="display:none" class="col-sm-4 ">
+    <h1><font color="black">Login</font></h1>
+    <div class="card">
+        <div class="card-body">
+          <br>
+          <br>
+          <br>
+    <div class="form-group">
+      <label for="name"><font color="blue"></font></label>
+      <input type="text" class="form-control" #e id="name" placeholder="Enter username" name="user" required #user><br>
+    </div>
+
+    
+    <div class="form-group">
+      <label for="pwd"><font color="orange"><font color="red"></font></font></label>
+      <input type="password" class="form-control" #f id="pwd" placeholder="Enter password" name="psw" required #psw><br>
+    </div>
+  
+    <br>
+    <br>
+
+ <div id="btnid" class="row">
+    <div class="col-sm-2">
+    <button type="submit" class="btn btn-info" (click)="open();submitt(e.value,f.value)">Login</button></div>
+    <div class="col-sm-2"></div>
+    <div class="col-sm-2">
+        <button type="submit" class="btn btn-danger" >Cancel</button>
+        </div>
+  </div>
+</div>
+</div>
+</div>
+
+
+</div>
+
+<div  class="Admin">
+  <nav id="content" style="display:none" class="navbar navbar-expand-lg navbar-light bg-light">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" routerLink="/profile" ><font color="darkpink">Profile</font> <span class="sr-only">(current)</span></a>
+        </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/"><font color="Blue">back</font></a>
+        </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    
+      </ul>
+    </div>
+  </nav>
+
+</div>
+ </div>
+</body>
+</html>
+<router-outlet></router-outlet>

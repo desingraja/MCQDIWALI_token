@@ -1,0 +1,26 @@
+
+    <div class="container">
+        
+        <table class="table" id="tableid" >
+          <thead style="position:fixed;width: 1100px;background-color: black">
+            
+                <th>Name</th>
+                <th>Id</th>
+                <th>E-Mail</th>
+            
+          </thead>
+          <tbody *ngFor="let arr of value" id="tbody">
+            <tr>
+               <td>{{arr.name}}</td>
+                <td>{{arr.empid}}</td>
+                <td>{{arr.mail}}</td>
+            </tr>
+           
+          </tbody>
+        </table>
+      </div>
+      
+      
+      
+      
+

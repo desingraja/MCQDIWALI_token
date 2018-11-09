@@ -1,0 +1,14 @@
+.card{
+    width:300px;
+    height:350px;
+    margin-left:520px;
+    border-radius:25px;
+    background-color:whitesmoke;
+    margin-top:220px
+}
+#btnid{
+    margin-top:70px
+}
+#name{
+    margin-top:80px
+}
